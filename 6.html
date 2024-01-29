@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>School timetable</title>
+    <style>
+        body {
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        }
+        
+        h1 {
+            text-align: center;
+        }
+        
+        .time-table {
+            display: grid;
+            grid-template-columns: repeat(8, 1fr);
+            border: 3px solid black;
+            padding: 10px;
+            background-color: #5da3fa;
+        }
+        
+        .item {
+            padding: 20px 5px;
+            border: 2px dotted black;
+            text-align: center;
+            background-color: #03c6c7;
+        }
+        
+        .row-1 {
+            font-weight: bold;
+            font-size: large;
+            padding: 40px 0px;
+            background-color: #ff6666;
+        }
+        
+        .text-bold {
+            font-weight: bold;
+            background-color: #8d3daf;
+        }
+        
+        .span-2-end {
+            grid-column: 7/9;
+            background-color: #cad5e2;
+        }
+        
+        .span-2-start {
+            grid-column: 2/4;
+            background-color: #cad5e2;
+        }
+        
+        .text-green {
+            background-color: #1faa59;
+            font-weight: bold;
+            font-size: larger;
+        }
+        
+        .lunch {
+            background-color: #edc126;
+            border: 0;
+            font-weight: bold;
+            font-size: larger;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>School Timetable</h1>
+    <div class="time-table">
+        <div class="row-1 item">TIME</div>
+        <div class="row-1 item">08:00 AM - 09:00 AM</div>
+        <div class="row-1 item">09:00 AM - 10:00 AM</div>
+        <div class="row-1 item">10:00 AM - 11:00 AM</div>
+        <div class="row-1 item">11:00 AM - 12:00 PM</div>
+        <div class="row-1 item">12:00 PM - 02:00 PM</div>
+        <div class="row-1 item">02:00 PM - 03:00 PM</div>
+        <div class="row-1 item">03:00 PM - 04:00 PM</div>
+
+        <div class="text-bold item">Monday</div>
+        <div class="item">English</div>
+        <div class="item">Biology</div>
+        <div class="item">Physics</div>
+        <div class="item">Chemistry</div>
+        <div class="lunch  item">L</div>
+        <div class="span-2-end item">Chemistry LAB</div>
+
+        <div class="text-bold item">Tuesday</div>
+        <div class="span-2-start item">Biology LAB</div>
+        <div class="item">Physics</div>
+        <div class="item">Chemistry</div>
+        <div class="lunch item">U</div>
+        <div class="item">English</div>
+        <div class="item">Biology</div>
+
+        <div class="text-bold item">Wednesday</div>
+        <div class="item">English</div>
+        <div class="item">Biology</div>
+        <div class="item">Physics</div>
+        <div class="item">Chemistry</div>
+        <div class="lunch item">N</div>
+        <div class="span-2-end item text-green">Games</div>
+
+        <div class="text-bold item">Thursday</div>
+        <div class="span-2-start item">Biology LAB</div>
+        <div class="item">Physics</div>
+        <div class="item">Chemistry</div>
+        <div class="lunch item">C</div>
+        <div class="item">Biology</div>
+        <div class="item">English</div>
+
+        <div class="text-bold item">Friday</div>
+        <div class="item">English</div>
+        <div class="item">Biology</div>
+        <div class="item">Physics</div>
+        <div class="item">Chemistry</div>
+        <div class="lunch item">H</div>
+        <div class="span-2-end item">Physics Lab</div>
+
+        <div class="text-bold item">Saturday</div>
+        <div class="span-2-start item">Biology LAB</div>
+        <div class="item">pyhsics</div>
+        <div class="item">Chemistry</div>
+        <div class="lunch item">Break</div>
+        <div class="span-2-end item text-green">LET OFF</div>
+
+    </div>
+</body>
+
+</html>

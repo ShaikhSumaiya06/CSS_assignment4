@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>main-section-1</title>
+    <style>
+        body {
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        }
+        /* nav section */
+        
+        nav {
+            max-width: 1200px;
+            margin: auto;
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            align-items: center;
+        }
+        
+        nav a {
+            text-decoration: none;
+            margin-right: 50px;
+            color: #000;
+            font-weight: 300;
+        }
+        
+        nav a:hover {
+            color: #0fdb6b;
+            font-weight: bold;
+        }
+        
+        nav button {
+            margin-left: 60%;
+            padding: 10px 0px;
+            border-radius: 5px;
+            font-weight: bold;
+            border: none;
+            background-color: #0fdb6b;
+        }
+        /* hero section */
+        
+        .hero-section {
+            max-width: 1200px;
+            margin: auto;
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            align-items: center;
+            padding: 10px;
+            gap: 20px;
+        }
+        
+        .text-section {
+            padding: 0px 50px;
+        }
+        
+        .text-section h1 {
+            font-size: 40px;
+        }
+        
+        .text-section p {
+            color: #4a545a;
+            font-size: 19px;
+        }
+        
+        .text-section button {
+            border: none;
+            font-size: large;
+            background-color: #000;
+            color: #fff;
+            padding: 10px 50px;
+            margin-top: 30px;
+        }
+        
+        .image-section {
+            max-height: 90vh;
+            height: 100%;
+            background-color: yellow;
+        }
+        
+        .image-section img {
+            height: 100%;
+            width: 70%;
+        }
+        /* main section-1 */
+        
+        .main-section1 {
+            max-width: 1200px;
+            margin: auto;
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            align-items: center;
+            background-color: #2e1808;
+        }
+        
+        .sub-section {
+            text-align: center;
+            margin: 10px 50px;
+        }
+        
+        .sub-section img {
+            width: 150px;
+        }
+        
+        .sub-section h1 {
+            color: #fff;
+        }
+        
+        .sub-section p {
+            color: #c78989;
+        }
+        
+        .sub-section-03-heading {
+            margin-top: 60px;
+        }
+    </style>
+</head>
+
+<body>
+    <nav>
+        <img src="../media/imagesSet/healthy_food_icon.png" alt="icon" width="50px">
+        <div>
+            <a href="#">Home</a>
+            <a href="#">About</a>
+            <a href="#">Contact</a>
+        </div>
+        <button>Login</button>
+    </nav>
+    <div class="hero-section">
+        <section class="text-section">
+            <h1>Healthy Food</h1>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum eligendi aut, at mollitia, rem voluptate illo minus sit iusto suscipit ipsa voluptas velit nemo, hic excepturi? Qui accusantium accusamus ea! Lorem ipsum dolor sit amet consectetur adipisicing
+                elit. Dolorum eligendi aut, at mollitia, rem voluptate illo minus sit iusto suscipit ipsa voluptas velit nemo, hic excepturi? Qui accusantium accusamus ea!
+            </p>
+            <button>Read More</button>
+        </section>
+        <section class="image-section">
+            <img src="../media/imagesSet/healthy_food_img.jpg" alt="healthy-food">
+        </section>
+    </div>
+    <section class="main-section1">
+        <div class="sub-section">
+            <img src="../media/imagesSet/healthy_food_sub_section1.webp" alt="sub_section1">
+            <h1>No Minimum Order</h1>
+            <p>Order in for yourself or for the group, with no restrictions on order value
+            </p>
+        </div>
+        <div class="sub-section">
+            <img src="../media/imagesSet/healthy_food_sub_section2.webp" alt="sub_section2">
+            <h1>Live Order Tracking</h1>
+            <p>
+                Know where your order is at all times, from the restaurant to your doorstep
+            </p>
+        </div>
+        <div class="sub-section">
+            <img src="../media/imagesSet/healthy_food_sub_section3.webp" alt="sub_section3">
+            <h1 class="sub-section-03-heading">Lightning-Fast Delivery</h1>
+            <p>Experience Swiggy's superfast delivery for food delivered fresh & on time
+            </p>
+        </div>
+    </section>
+</body>
+
+</html>
+
+</html>

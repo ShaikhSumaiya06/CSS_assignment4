@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>footer-section</title>
+    <style>
+        body {
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        }
+        /* nav section */
+        
+        nav {
+            max-width: 1400px;
+            margin: auto;
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            align-items: center;
+        }
+        
+        nav a {
+            text-decoration: none;
+            margin-right: 50px;
+            color: #000;
+            font-size: 20px;
+        }
+        
+        nav a:hover {
+            color: #0fdb6b;
+            font-weight: bold;
+        }
+        
+        nav button {
+            margin-left: 60%;
+            padding: 10px 0px;
+            background-color: #0fdb6b;
+            font-weight: bold;
+            border: none;
+            border-radius: 5px;
+        }
+        /* hero section */
+        
+        .hero-section {
+            max-width: 1400px;
+            margin: auto;
+            padding: 10px;
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 20px;
+            align-items: center;
+        }
+        
+        .text-section {
+            padding: 0px 50px;
+        }
+        
+        .text-section h1 {
+            font-size: 40px
+        }
+        
+        .text-section p {
+            color: #5f5e5e;
+            font-size: 18px;
+        }
+        
+        .text-section button {
+            margin-top: 30px;
+            padding: 10px 50px;
+            font-size: large;
+            border: none;
+            background-color: #000;
+            color: #fff;
+            border-radius: 5px;
+        }
+        
+        .img-section {
+            background-color: yellow;
+            height: 100%;
+            max-height: 90vh;
+        }
+        
+        .img-section img {
+            height: 100%;
+            width: 70%;
+        }
+        /* main-section-1 */
+        
+        .main-section-1 {
+            max-width: 1400px;
+            margin: auto;
+            background-color: #270a01;
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            align-items: center;
+        }
+        
+        .sub-section {
+            margin: 10px 50px;
+            text-align: center;
+        }
+        
+        .sub-section img {
+            width: 150px;
+        }
+        
+        .sub-section h2 {
+            color: #fff;
+        }
+        
+        .sub-section p {
+            color: #f7c3b3;
+        }
+        
+        .sub-section-heading {
+            margin-top: 60px;
+        }
+        /* main-section-2 */
+        
+        .main-section-2 {
+            max-width: 1400px;
+            margin: auto;
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            align-items: center;
+            column-gap: 60px;
+            padding: 30px 0px;
+        }
+        
+        .boxes {
+            width: 10 0%;
+            border-radius: 25px 25px 0px 0px;
+            margin-bottom: 0px;
+            overflow: hidden;
+        }
+        
+        .boxes img {
+            width: 100%;
+            height: 350px;
+            margin-top: -50px;
+        }
+        
+        .txt-section {
+            border: 1px solid black;
+            padding: 0px 50px;
+            border-radius: 0 0 25px 25px;
+            position: relative;
+            top: -50px;
+            background-color: #fff;
+        }
+        
+        .txt-section h1 {
+            margin: 0px;
+            padding: 5px 0px;
+            font-size: 30px;
+        }
+        
+        .txt-section p {
+            color: #5f5e5e;
+            font-size: 15px;
+            margin-top: 0px;
+        }
+        /* footer-section */
+        
+        footer {
+            max-width: 1400px;
+            margin: auto;
+            background-color: #270a01;
+            padding: 50px;
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+        }
+        
+        footer img {
+            width: 300px;
+            padding: 20px;
+            text-align: center;
+        }
+        
+        footer a {
+            color: #8c6e54;
+            text-decoration: none;
+            display: block;
+            font-size: 18px;
+            padding: 15px;
+        }
+        
+        footer h1 {
+            color: #fff;
+        }
+        
+        footer p {
+            color: #fff;
+            text-transform: capitalize;
+            font-size: 20px;
+            text-align: center;
+            padding: 10px;
+            grid-column: 1/4;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- nav-section -->
+    <nav>
+        <img src="../media/imagesSet/healthy_food_icon.png" alt="resturent-icon" width="50px">
+        <div>
+            <a href="#">Home</a>
+            <a href="#">About us</a>
+            <a href="#">Contact</a>
+        </div>
+        <button>Login</button>
+    </nav>
+    <div class="hero-section">
+        <div class="text-section">
+            <h1>Healthy Food</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus, odit deleniti pariatur ipsum numquam nostrum tenetur nulla laborum maiores! Commodi beatae quibusdam corporis aperiam libero, natus ducimus minima! Quo, dolores! Qui
+                hic deserunt ab ut,et at! Exercitationem nobis doloribus modi, maxime incidunt consequuntur, eum ipsam ratione officia, voluptates laboriosam. Blanditiis non error nihil.</p>
+            <button>Read More</button>
+        </div>
+        <div class="img-section">
+            <img src="../media/imagesSet/healthy_food_img.jpg" alt="Healthy food">
+        </div>
+    </div>
+    <!-- main-section-1 -->
+    <div class="main-section-1">
+        <div class="sub-section">
+            <img src="../media/imagesSet/healthy_food_sub_section1.webp" alt="sub section1">
+            <h2>No Minimum Order</h2>
+            <p>Order in for yourself or for the group, with no restrictions on order value</p>
+        </div>
+        <div class="sub-section">
+            <img src="../media/imagesSet/healthy_food_sub_section2.webp" alt="sub section2">
+            <h2>Live Order Tracking</h2>
+            <p>Know where your order is at all times, from the restaurant to your doorstep</p>
+        </div>
+        <div class="sub-section">
+            <img src="../media/imagesSet/healthy_food_sub_section3.webp" alt="sub section3">
+            <h2 class="sub-section-heading">Lightning-Fast Delivery</h2>
+            <p>Experience Swiggy's superfast delivery for food delivered fresh & on time</p>
+        </div>
+    </div>
+    <!-- main-section-2 -->
+    <div class="main-section-2">
+        <div class="boxes">
+            <img src="../media/imagesSet/healtyFood_img1.avif" alt="img1">
+            <div class="txt-section">
+                <h1>Order Online</h1>
+                <p>Stay Home and order to your Door Step</p>
+            </div>
+        </div>
+        <div class="boxes">
+            <img src="../media/imagesSet/healtyFood_img2.avif" alt="img2">
+            <div class="txt-section">
+                <h1>On-site Dining</h1>
+                <p>View the city's favourite dining venues.</p>
+            </div>
+        </div>
+        <div class="boxes">
+            <img src="../media/imagesSet/healtyFood_img3.avif" alt="img3">
+            <div class="txt-section">
+                <h1>Nightlife & Clubs</h1>
+                <p>Explore the city's top nightlife outlets & Book tables.</p>
+            </div>
+        </div>
+    </div>
+    <!-- footer-section -->
+    <footer>
+
+        <img src="../media/imagesSet/healthy_food_icon.png" alt="icon">
+        <div class="list">
+            <h1>Navigation Links</h1>
+            <a href="#">Home</a>
+            <a href="#">About</a>
+            <a href="#">Contact</a>
+            <a href="#">Login</a>
+        </div>
+        <div class="list">
+            <h1>Learn More</h1>
+            <a href="#">Privacy</a>
+            <a href="#">Security</a>
+            <a href="#">Terms</a>
+            <a href="#">Sitemap</a>
+        </div>
+
+        <p class="copyrights"> &copy; Copyright all rights reserved</p>
+    </footer>
+</body>
+
+</html>

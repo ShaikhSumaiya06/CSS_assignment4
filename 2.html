@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>navigation bar</title>
+    <style>
+        body {
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        }
+        
+        nav {
+            max-width: 1200px;
+            margin: auto;
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            align-items: center;
+        }
+        
+        nav button {
+            background-color: #0fdb6b;
+            color: #000;
+            font-weight: bold;
+            border-radius: 5px;
+            border: 0;
+            margin-left: 60%;
+            padding: 10px 0;
+        }
+        
+        nav a {
+            text-decoration: none;
+            color: #000;
+            margin-right: 50px;
+            font-weight: bold;
+        }
+        
+        nav a:hover {
+            color: #00ee7f;
+            font-weight: 500;
+        }
+        
+        .hero-section {
+            margin: auto;
+            max-width: 1200px;
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 20px;
+            padding: 10px;
+            align-items: center;
+        }
+        
+        .text-section {
+            padding: 0px 50px;
+        }
+        
+        .text-section h1 {
+            font-size: 40px;
+        }
+        
+        .text-section p {
+            font-size: 19px;
+            color: #4d575c;
+        }
+        
+        .text-section button {
+            margin-top: 30px;
+            padding: 10px 50px;
+            background-color: #000;
+            color: #fff;
+            font-size: large;
+            border: none;
+        }
+        
+        .image-section {
+            max-height: 90vh;
+            height: 100%;
+            background-color: yellow;
+        }
+        
+        .image-section img {
+            height: 100%;
+            width: 70%;
+        }
+    </style>
+</head>
+
+<body>
+    <nav>
+
+        <img src="../media/imagesSet/healthy_food_icon.png" alt="healthy_food_icon" width="50px">
+        <div>
+            <a href="#">Home</a>
+            <a href="#">About</a>
+            <a href="#">Contact</a>
+        </div>
+        <button>Login</button>
+    </nav>
+    <div class="hero-section">
+        <section class="text-section">
+            <h1>Healthy Food</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum eligendi aut, at mollitia, rem voluptate illo minus sit iusto suscipit ipsa voluptas velit nemo, hic excepturi? Qui accusantium accusamus ea! Lorem ipsum dolor sit amet consectetur
+                adipisicing elit. Dolorum eligendi aut, at mollitia, rem voluptate illo minus sit iusto suscipit ipsa voluptas velit nemo, hic excepturi? Qui accusantium accusamus ea!
+            </p>
+            <button>Read More</button>
+        </section>
+        <section class="image-section">
+            <img src="../media/imagesSet/healthy_food_img.jpg" alt="healthy-food">
+        </section>
+    </div>
+</body>
+
+</html>

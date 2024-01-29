@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>main-section-2</title>
+    <style>
+        body {
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        }
+        /* nav section */
+        
+        nav {
+            max-width: 1200px;
+            margin: auto;
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            align-items: center;
+        }
+        
+        nav a {
+            text-decoration: none;
+            margin-right: 50px;
+            color: #000;
+            font-size: 18px;
+        }
+        
+        nav a:hover {
+            color: #0fdb6b;
+            font-weight: bold;
+        }
+        
+        nav button {
+            margin-left: 60%;
+            border: none;
+            border-radius: 5px;
+            padding: 10px 0px;
+            background-color: #0fdb6b;
+            font-weight: bold;
+        }
+        /* hero section */
+        
+        .hero-section {
+            max-width: 1200px;
+            margin: auto;
+            padding: 10px;
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            align-items: center;
+            gap: 20px;
+        }
+        
+        .text-section {
+            padding: 0px 50px;
+        }
+        
+        .text-section h1 {
+            font-size: 40px;
+        }
+        
+        .text-section p {
+            color: #5f5e5e;
+            font-size: 18px;
+        }
+        
+        .text-section button {
+            background-color: #000;
+            color: #fff;
+            padding: 10px 50px;
+            font-size: large;
+            border: none;
+            margin-top: 30px;
+        }
+        
+        .image-section {
+            background-color: yellow;
+            height: 100%;
+            max-height: 90vh;
+        }
+        
+        .image-section img {
+            width: 70%;
+            height: 100%;
+        }
+        /* main section-1 */
+        
+        .main-section-1 {
+            max-width: 1200px;
+            margin: auto;
+            background-color: #35180e;
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            align-items: center;
+        }
+        
+        .sub-section {
+            text-align: center;
+            margin: 10px 50px;
+        }
+        
+        .sub-section img {
+            width: 150px;
+        }
+        
+        .sub-section h1 {
+            color: #fff;
+        }
+        
+        .sub-section p {
+            color: #eea38a;
+        }
+        
+        .sub-section-03-heading {
+            margin-top: 60px;
+        }
+        /* main section-2 (card) */
+        
+        .main-section-2 {
+            max-width: 1200px;
+            margin: auto;
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            align-items: center;
+            column-gap: 60px;
+            padding: 30px 0px;
+        }
+        
+        .boxes {
+            /* text-align: center; */
+            margin-bottom: 0px;
+            width: 10 0%;
+            overflow: hidden;
+            border-radius: 25px 25px 0px 0px;
+        }
+        
+        .boxes img {
+            width: 100%;
+            height: 280px;
+            margin-top: -50px;
+            /* text-align: center; */
+        }
+        
+        .txt-section h1 {
+            font-size: 30px;
+            margin: 0px;
+            padding: 5px 0px;
+        }
+        
+        .txt-section p {
+            margin-top: 0px;
+            font-size: 15px;
+            color: #5f5e5e;
+        }
+        
+        .txt-section {
+            border: 1px solid black;
+            border-radius: 0px 0px 25px 25px;
+            /* text-align: left; */
+            background-color: #fff;
+            margin-top: 0px;
+            position: relative;
+            top: -50px;
+            padding: 0px 50px;
+        }
+    </style>
+</head>
+
+<body>
+    <nav>
+        <img src="../media/imagesSet/healthy_food_icon.png" alt="healthy-food-icon" width="50px">
+        <div>
+            <a href="#">Home</a>
+            <a href="#">About Us</a>
+            <a href="#">Contact</a>
+        </div>
+        <button>Login</button>
+    </nav>
+    <div class="hero-section">
+        <div class="text-section">
+            <h1>Healthy Food</h1>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Explicabo asperiores quaerat architecto harum, soluta rem quia laborum blanditiis totam pariatur labore, aperiam, culpa delectus officiis adipisci quod! Dignissimos, similique! Reiciendis
+                sed repellat nostrum incidunt consequuntur commodi animi, excepturi culpa odit, distinctio et sunt repellendus. Adipisci velit dignissimos nisi labore. Optio molestiae distinctio nemo atque, quam placeat tempore delectus accusamus. Quidem
+                possimus quis error et beatae ad officiis, ratione tenetur velit quam.
+            </p>
+            <button>Read More</button>
+        </div>
+        <div class="image-section">
+            <img src="../media/imagesSet/healthy_food_img.jpg" alt="healthy food">
+        </div>
+    </div>
+    <section class="main-section-1">
+        <div class="sub-section">
+            <img src="../media/imagesSet/healthy_food_sub_section1.webp" alt="sub section1">
+            <h1>No Minimum Order</h1>
+            <p>Order in for yourself or for the group, with no restrictions on order value</p>
+        </div>
+        <div class="sub-section">
+            <img src="../media/imagesSet/healthy_food_sub_section2.webp" alt="sub section2">
+            <h1>Live Ordering Tracking</h1>
+            <p>Know where your order is at all times, from the restaurant to your doorstep</p>
+        </div>
+        <div class="sub-section">
+            <img src="../media/imagesSet/healthy_food_sub_section3.webp" alt="sub section3">
+            <h1 class="sub-section-03-heading">Lightning-Fast Delivery</h1>
+            <p>Experience Swiggy's superfast delivery for food delievered fresh & on time</p>
+        </div>
+    </section>
+    <section class="main-section-2">
+        <div class="boxes">
+            <img src="../media/imagesSet/healtyFood_img1.avif" alt="image1">
+            <div class="txt-section">
+                <h1>Order Online</h1>
+                <p>Stay Home and order to your Door Step</p>
+            </div>
+        </div>
+        <div class="boxes">
+            <img src="../media/imagesSet/healtyFood_img2.avif" alt="image2">
+            <div class="txt-section">
+                <h1>On-site Dining</h1>
+                <p>View the city's favourite dining venues.</p>
+            </div>
+        </div>
+        <div class="boxes">
+            <img src="../media/imagesSet/healtyFood_img3.avif" alt="image3">
+            <div class="txt-section">
+                <h1>Nightlife & Clubs</h1>
+                <p>Explore the city's top nightlife outlets & Book tables.</p>
+            </div>
+        </div>
+    </section>
+</body>
+
+</html>
